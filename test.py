@@ -15,7 +15,7 @@ app.config['SECRET_KEY'] = 'secret_key_here'  # Add a secret key for security
 # Dummy user credentials for login
 USERS = {'admin': 'password123'}
 
-GEMINI_API_KEY = "AIzaSyDYljCCjaq_hMFPrsWN_pDjqcXeOlLn9b0"  # Add your API key here
+GEMINI_API_KEY = ""  # Add your API key here
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
 # Store results here
